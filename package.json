@@ -1,0 +1,26 @@
+{
+  "name": "euler-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "folder": "sh scripts/new-folder.sh"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "jest": "24.1"
+  }
+}
