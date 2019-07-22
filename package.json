@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "start": "jest ./src/euler-4",
     "folder": "sh scripts/new-folder.sh"
   },
   "jest": {
@@ -22,5 +23,8 @@
     "babel-jest": "^24.1.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "jest": "24.1"
+  },
+  "dependencies": {
+    "prettify": "^0.1.7"
   }
 }
